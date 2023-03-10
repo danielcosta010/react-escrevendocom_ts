@@ -1,23 +1,23 @@
 import style from './Botao.module.scss'
 import React from 'react';
 
-interface props {
-  
-}
-
-class Botao extends React.Component<{
-  children: string,
+interface Props {
+  children: React.ReactNode,
   type?: 'button' | 'submit' | 'reset' | undefined
   onClick?: () => void
-}> {
-  render() {
-    const { type= 'button', onClick } = this.props
-    return (
-      <button onClick={onClick} type={type} className={style.botao}>
-        {this.props.children}
-      </button>
-    )
-  }
+
+}
+
+function Botao({children, type, onClick}: Props) {
+  return (
+    <button 
+      onClick={onClick} 
+      type={type} 
+      className={style.botao}
+    >
+      {children}
+    </button>
+  )
 }
 
 export default Botao;
