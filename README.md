@@ -4,7 +4,7 @@ Este projeto foi inicializado com [Create React App](https://github.com/facebook
 
 Temporizador de tarefas desenvolvido com react-typescript
 
-<a href=''><img src='https://github.com/danielcosta010/react-escrevendocom_ts/blob/main/public/capa_projeto.png#vitrinedev' width='70%'/></a>
+<a href='https://react-escrevendocom-ts.vercel.app/'><img src='https://github.com/danielcosta010/react-escrevendocom_ts/blob/main/public/capa_projeto.png#vitrinedev' width='70%'/></a>
 
 ## Scripts disponíveis
 
