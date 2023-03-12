@@ -2,6 +2,10 @@
 
 Este projeto foi inicializado com [Create React App](https://github.com/facebook/create-react-app).
 
+Temporizador de tarefas desenvolvido com react-typescript
+
+<a href=''><img src='https://github.com/danielcosta010/react-escrevendocom_ts/blob/main/public/capa_projeto.png#vitrinedev' width='70%'/></a>
+
 ## Scripts disponíveis
 
 No diretório do projeto, você pode executar:
